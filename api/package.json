@@ -1,0 +1,15 @@
+{
+  "name": "keyauth-api",
+  "version": "2.0.0",
+  "description": "KeyAuth API on Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
